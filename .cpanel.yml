@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kdowd/public_html/wordpress/wp-content/themes/twentytwentytwo
+    - /bin/cp index.html $DEPLOYPATH
